@@ -25,7 +25,9 @@ alias egrep='egrep --color=auto'
 # for Homebrew doctor warning
 alias brew="env PATH=${PATH/\/Users\/ishikawa\/.phpenv\/shims:/} brew"
 
+# for git
 alias cdu='cd-gitroot'
+alias gn='git now'
 
 # Global aliases
 alias -g L='| less'
