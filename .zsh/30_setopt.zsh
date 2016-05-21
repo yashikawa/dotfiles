@@ -44,3 +44,6 @@ setopt auto_menu
  
 # 高機能なワイルドカード展開を使用する
 setopt extended_glob
+
+# PROMPT変数の中で変数参照をプロンプト表示時に展開する
+setopt prompt_subst

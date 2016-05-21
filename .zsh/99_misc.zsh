@@ -10,7 +10,7 @@ SAVEHIST=1000000
 # プロンプト
 # %n - ユーザ名を表示
 # %m - マシン名を表示
-PROMPT="%{${fg[yellow]}%}[%m]%{${reset_color}%} %~ %# "
+#PROMPT="%{${fg[yellow]}%}[%m]%{${reset_color}%} %~ %# "
 
 # タイプセット
 # 重複パスを登録しない
@@ -33,3 +33,5 @@ compinit
 
 # ファイル補完候補に色を付ける
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+
+autoload -Uz cd-gitroot
