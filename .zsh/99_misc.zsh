@@ -39,3 +39,7 @@ zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
 # cd-gitrootを使えるようにする
 autoload -Uz cd-gitroot
+
+# cdr
+autoload -Uz chpwd_recent_dirs cdr add-zsh-hook
+add-zsh-hook chpwd chpwd_recent_dirs

@@ -1,4 +1,4 @@
-# Common aliases
+### Common aliases
 alias ls='gls --color=auto' # Set color when using ls
 alias ld='ls -ld'           # Show info about the directory
 alias lla='ls -lAF'         # Show hidden all files
@@ -22,14 +22,14 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
+alias cdu='cd-gitroot'
+alias gn='git now'
+alias aw=anyframe-widget-select-widget
+
 # for Homebrew doctor warning
 alias brew="env PATH=${PATH/\/Users\/ishikawa\/.phpenv\/shims:/} brew"
 
-# for git
-alias cdu='cd-gitroot'
-alias gn='git now'
-
-# Global aliases
+### Global aliases
 alias -g L='| less'
 alias -g G='| grep'
 alias -g W='| wc'
