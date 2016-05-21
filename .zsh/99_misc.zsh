@@ -11,7 +11,8 @@ SAVEHIST=1000000
 # %n - ユーザ名を表示
 # %m - マシン名を表示
 #PROMPT="%{${fg[yellow]}%}[%m]%{${reset_color}%} %~ %# "
-RPROMPT='$(git_prompt_info)'
+
+# oh-my-zshのgit plugin用
 ZSH_THEME_GIT_PROMPT_DIRTY='*'
 
 # タイプセット
@@ -36,4 +37,5 @@ compinit
 # ファイル補完候補に色を付ける
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 
+# cd-gitrootを使えるようにする
 autoload -Uz cd-gitroot
