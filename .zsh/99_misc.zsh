@@ -11,6 +11,8 @@ SAVEHIST=1000000
 # %n - ユーザ名を表示
 # %m - マシン名を表示
 #PROMPT="%{${fg[yellow]}%}[%m]%{${reset_color}%} %~ %# "
+RPROMPT='$(git_prompt_info)'
+ZSH_THEME_GIT_PROMPT_DIRTY='*'
 
 # タイプセット
 # 重複パスを登録しない
