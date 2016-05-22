@@ -1,6 +1,8 @@
 #!/bin/bash
-
 DOTPATH=~/dotfiles
+
+git submodule init
+git submodule update
 
 for f in .??*
 do
