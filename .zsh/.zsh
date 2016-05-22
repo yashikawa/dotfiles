@@ -1,1 +1,0 @@
-/Users/ishikawa/dotfiles/.zsh
