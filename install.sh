@@ -9,7 +9,7 @@ do
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".gitmodules" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
-    ln -snfv "$DOTPATH/$f" "$HOME/$f"
+    ln -snv "$DOTPATH/$f" "$HOME/$f"
 done
 
 [ ! -d $HOME/.tmux ] && git clone git@github.com:tmux-plugins/tpm.git $HOME/.tmux/plugins/tpm
