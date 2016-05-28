@@ -12,5 +12,8 @@ export PATH=/usr/local/Cellar/httpd/2.2.26/sbin:$PATH
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
+# for NeoVim
+export XDG_CONFIG_HOME=$HOME/.config
+
 # for php5.4
 #export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
