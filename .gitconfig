@@ -1,5 +1,5 @@
 [core]
-    excludesfile = ~/.gitignore
+    excludesfile = ~/.gitignore_global
     editor = /usr/bin/vim
 [color]
     ui = auto
@@ -8,4 +8,4 @@
     root = ~/Develop
 [user]
     name = yashikawa
-    email = yashikawa.7@gmail.com
+    email = yashikawa3@gmail.com

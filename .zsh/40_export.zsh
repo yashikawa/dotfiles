@@ -9,7 +9,7 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/Cellar/httpd/2.2.26/sbin:$PATH
 
 # for go
-export GOPATH=$HOME
+export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 
 # for php5.4
