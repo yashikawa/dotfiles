@@ -12,6 +12,9 @@ do
     ln -snv "$DOTPATH/$f" "$HOME/$f"
 done
 
+
+command -v brew >/dev/null 2>&1 && brew bundle
+
 [ ! -d $HOME/.tmux ] && git clone git@github.com:tmux-plugins/tpm.git $HOME/.tmux/plugins/tpm
 
 _ANYENV_ROOT=$HOME/.anyenv
