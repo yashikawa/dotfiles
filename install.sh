@@ -35,7 +35,6 @@ function install_env () {
     if [ ! -d $_ENV_ROOT ] ; then
         echo "Install $_ENV? [y/N]"
         read ANSWER
-        #case `echo $ANSWER | tr y Y` in
         case `echo $ANSWER | tr y Y` in
             "" | Y* )
                 anyenv install $_ENV
@@ -89,8 +88,17 @@ function install_envs () {
     if ! ls $_ANYENV_ROOT/envs/* > /dev/null 2>&1 ; then
         return
     fi
+    
+    echo "Update anyenv? [y/N]"
+    read ANSWER
+    case `echo $ANSWER | tr y Y` in
+        "" | Y* )
+            anyenv update
+            ;;
+        *)
+            ;;
+    esac
 
-    anyenv update
 
     for _env in ${_envs[@]}
     do

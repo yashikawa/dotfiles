@@ -15,5 +15,8 @@ export PATH=$GOPATH/bin:$PATH
 # for NeoVim
 export XDG_CONFIG_HOME=$HOME/.config
 
+# for anyenv
+export ANYENV_ROOT=$HOME/.anyenv
+
 # for php5.4
 #export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"

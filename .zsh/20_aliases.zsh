@@ -28,6 +28,9 @@ alias cdu='cd-gitroot'
 alias gn='git now'
 alias aw=anyframe-widget-select-widget
 
+alias v=nvim
+#alias vim=nvim
+
 # for Homebrew doctor warning
 alias brew="env PATH=${PATH//(${HOME}\/.anyenv\/envs\/phpenv\/shims:|${HOME}\/.anyenv\/envs\/pyenv\/shims:)/} brew"
 #alias brew="env PATH=${PATH/\/Users\/ishikawa\/.phpenv\/shims:/} brew"
