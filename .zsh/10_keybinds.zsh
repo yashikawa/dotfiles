@@ -1,6 +1,15 @@
 # To such key bindings of emacs
 #bindkey -e
 
+# Enable Home Key
+bindkey "^[[1~" beginning-of-line
+
+# Enable End Key
+bindkey "^[[4~" end-of-line
+
+# Enable Delete Key
+bindkey "^[[3~" delete-char
+
 # Search histories
 bindkey '^P' history-beginning-search-backward
 bindkey '^N' history-beginning-search-forward
