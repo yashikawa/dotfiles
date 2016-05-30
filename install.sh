@@ -8,9 +8,15 @@ for f in .??*
 do
     [[ "$f" == ".git" ]] && continue
     [[ "$f" == ".gitmodules" ]] && continue
+    [[ "$f" == ".gitignore" ]] && continue
     [[ "$f" == ".DS_Store" ]] && continue
     ln -snv "$DOTPATH/$f" "$HOME/$f"
 done
+
+# Custom ln
+[ ! -d $HOME/.config/nvim ] && mkdir -p "$HOME/.config/nvim"
+ln -snv "$HOME/.vim" "$HOME/.config/nvim/"
+ln -snv "$HOME/.vimrc" "$HOME/.config/nvim/init.vim"
 
 
 command -v brew >/dev/null 2>&1 && brew bundle

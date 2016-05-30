@@ -30,8 +30,8 @@ if dein#load_state(s:dein_dir)
 endif
 
 " vimprocだけは最初にインストールしてほしい
-if dein#check_install(['vimproc'])
-  call dein#install(['vimproc'])
+if dein#check_install(['vimproc.vim'])
+  call dein#install(['vimproc.vim'])
 endif
 " その他インストールしていないものはこちらに入れる
 if dein#check_install()
@@ -51,7 +51,7 @@ let g:lightline = {
     \ 'colorscheme': 'solarized',
     \ }
 
-" delete keyを有効にする
+" Backspace keyを有効にする
 set backspace=indent,eol,start
 
 " clipboard連携を有効にする
