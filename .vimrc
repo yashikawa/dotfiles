@@ -82,6 +82,9 @@ set autoindent
 set expandtab
 set shiftwidth=4
 
+" for lightline.vim
+set laststatus=2
+
 " escape insert mode
 inoremap <silent> jj <ESC>
 
