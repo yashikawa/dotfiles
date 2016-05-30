@@ -41,7 +41,7 @@ endif
 " }}}
 
 " メッセージを英語にする
-language C
+"language C
 
 " Python3 サポートを有効にする
 let g:python3_host_prog = expand('$ANYENV_ROOT') . '/envs/pyenv/shims/python'
@@ -76,6 +76,8 @@ set noerrorbells
 
 " line
 set number
+
+set encoding=utf-8
 
 set tabstop=4
 set autoindent

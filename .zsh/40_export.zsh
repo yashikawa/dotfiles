@@ -1,5 +1,5 @@
 # environment
-export LANG=ja_JP.UTF-8
+export LANG=en_US.UTF-8
 
 # for Homebrew
 export PATH=/usr/local/bin:$PATH
