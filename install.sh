@@ -113,4 +113,4 @@ function install_envs () {
 
 }
 
-install_envs "(pyenv phpenv)"
+install_envs "(pyenv phpenv ndenv)"
