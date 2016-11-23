@@ -22,4 +22,5 @@ export ANYENV_ROOT=$HOME/.anyenv
 #export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
 
 # for npm
-export PATH=$PATH:`npm bin -g`
+# export about npm is located 50_env.zsh.
+

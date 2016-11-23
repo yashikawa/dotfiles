@@ -25,3 +25,6 @@ if [ -d $HOME/.anyenv ] ; then
 #        export PATH="$HOME/.anyenv/envs/$D/shims:$PATH"
 #    done
 fi
+
+# for npm
+export PATH=$PATH:`npm bin -g`#
