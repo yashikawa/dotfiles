@@ -20,3 +20,6 @@ export ANYENV_ROOT=$HOME/.anyenv
 
 # for php5.4
 #export PATH="$(brew --prefix josegonzalez/php/php54)/bin:$PATH"
+
+# for npm
+export PATH=$PATH:`npm bin -g`
